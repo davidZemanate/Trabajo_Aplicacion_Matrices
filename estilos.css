@@ -1,0 +1,26 @@
+/* Estilo personalizado */
+body {
+    background-color: #e9ecef;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h2, h3 {
+    color: #6c757d;
+}
+
+p {
+    color: #495057;
+}
+
+pre code {
+    color: #d6336c;
+    font-size: 1rem;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Matrices</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <div class="card shadow-lg p-4">
+            <h1 class="display-4 mb-4">Aplicación de Matrices</h1>
+            <p class="lead">Creado por:</p>
+            <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">David Fernando Zemanate</li>
+            </ul>
+            
+            <h2 class="h4 mb-3">Explicación de la Matriz</h2>
+            <p class="text-start">
+                Un tablero de ajedrez es una matriz de 8x8. En vez de representar solo las casillas blancas y negras, 
+                podemos representar las piezas de ajedrez. Usaremos letras para representar las piezas: P para peón, R para torre, 
+                N para caballo (knight), B para alfil, Q para reina y K para rey. Las piezas negras se representan con letras minúsculas 
+                y las blancas con letras mayúsculas.
+            </p>
+            
+            <h3 class="h5 text-start">Tablero de Ajedrez en Python:</h3>
+            <pre class="bg-light p-3 rounded"><code>
+chess_board = [
+    ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
+    ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+    ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
+]
+            </code></pre>
+
+            <p class="text-start">
+                Las matrices también son esenciales para la representación y manipulación de imágenes. 
+                Cada píxel de una imagen en escala de grises se puede representar como un valor en una matriz, 
+                donde cada valor varía del 0 (negro) al 255 (blanco).
+            </p>
+            
+            <h3 class="h5 text-start">Ejemplo de Imagen en Escala de Grises en Python:</h3>
+            <pre class="bg-light p-3 rounded"><code>
+image = [
+    [255, 0, 0, 0, 255],
+    [0, 255, 0, 255, 0],
+    [0, 0, 255, 0, 0],
+    [0, 255, 0, 255, 0],
+    [255, 0, 0, 0, 255]
+]
+            </code></pre>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
